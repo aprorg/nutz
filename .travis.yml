@@ -11,3 +11,6 @@ before_install:
   - export TZ=Asia/Shanghai
 addons:
   postgresql: "9.3"
+    apt:
+      packages:
+        - postgresql-server-dev-9.3
