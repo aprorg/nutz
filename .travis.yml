@@ -9,6 +9,7 @@ before_script:
   - cp ./tools/travis-ci/log4j.properties ./test/
 before_install:
   - export TZ=Asia/Shanghai
+  
 addons:
   postgresql: "9.3"
     apt:
